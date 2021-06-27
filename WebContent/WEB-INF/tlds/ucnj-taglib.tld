@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" 
+ "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>1.1</jspversion>
+	<shortname>ucnj-taglib</shortname>
+	<tag>
+		<name>pageNav</name>
+		<tagclass>org.ucnj.taglib.PageNavTag</tagclass>
+		<bodycontent>empty</bodycontent>
+		<info>Creates the navigation table for pages results</info>
+	    <attribute>
+	      <name>thisPage</name>
+	      <required>true</required>
+	      <rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	    <attribute>
+	      <name>morePages</name>
+	      <required>true</required>
+	      <rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	    <attribute>
+	      <name>resultsPerPage</name>
+	      <required>true</required>
+	      <rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	    <attribute>
+	      <name>searchForm</name>
+	      <required>true</required>
+	      <rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	</tag>
+	<tag>
+		<name>backNav</name>
+		<tagclass>org.ucnj.taglib.BackNavTag</tagclass>
+		<bodycontent>empty</bodycontent>
+		<info>acts like javascript:history.go(-1) for viewer jsp</info>
+	    <attribute>
+	      <name>thisPage</name>
+	      <required>true</required>
+	      <rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	    <attribute>
+	      <name>resultsPerPage</name>
+	      <required>true</required>
+	      <rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	    <attribute>
+	      <name>searchForm</name>
+	      <required>true</required>
+	      <rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	    <attribute>
+	      <name>text</name>
+	      <required>true</required>
+	      <rtexprvalue>true</rtexprvalue>
+	    </attribute>
+	</tag>
+</taglib>

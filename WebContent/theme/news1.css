@@ -1,0 +1,10 @@
+.headline {
+	font-size: 18pt;
+	margin-top: 10px;
+}
+.details {
+	font-size: 14pt;
+}
+.detailDisplay {
+	display: none;
+}

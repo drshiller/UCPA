@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE></TITLE>
+
+<STYLE type="text/css">
+<!--
+A{
+  font-family : Arial;
+}
+A:HOVER{
+  color : red;
+}
+-->
+</STYLE>
+
+<SCRIPT language="JavaScript" src="scripts/Date.js"></SCRIPT>
+
+</HEAD>
+
+<BODY vlink="#0000FF" link="#0000FF" alink="#FF0000">
+
+<SPAN STYLE="font-family: Arial; font-weight: Bold; font-size: 14pt">
+Union County<BR>
+Public Access<BR>
+Site Analysis
+</SPAN>
+<BR>
+
+<FORM name="formChart" action="Chart1" method="POST" target="chart">
+
+<TABLE border="0" width="128" cellpadding="0" cellspacing="0">
+  <CAPTION align="left"><SPAN STYLE="font-family: Arial; font-weight: Bold; font-size: 12pt">Date Range</SPAN></CAPTION>
+  <TBODY>
+    <TR>
+      <TD width="48"><SPAN STYLE="font-family: Arial; font-size: 12pt">From:</SPAN></TD>
+      <TD width="80"><INPUT type="text" size="10" name="from" onblur="convertDate(from, false)"></TD>
+    </TR>
+    <TR>
+      <TD width="48"><SPAN STYLE="font-family: Arial; font-size: 12pt">To:</SPAN></TD>
+      <TD width="80"><INPUT type="text" size="10" name="to" onblur="convertDate(to, false)"></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<SPAN STYLE="font-family: Arial; font-size: 9pt">
+<SPAN STYLE="font-weight: Bold">Note:</SPAN> An empty date field will default to its maximum available value.
+</SPAN>
+<BR><BR>
+
+<SPAN STYLE="font-family: Arial; font-size: 12pt">
+<SPAN STYLE="font-weight: Bold">Frequency</SPAN><BR>
+<INPUT type="radio" checked name="acc" value="d"><FONT face="Arial"> Daily</FONT><BR>
+<INPUT type="radio" name="acc" value="m"><FONT face="Arial"> Monthly</FONT>
+</SPAN>
+<BR><BR>
+
+<SPAN STYLE="font-family: Arial; font-size: 12pt">
+<SPAN STYLE="font-weight: Bold">Password:</SPAN>
+<INPUT type="Password" size="10" name="pw">
+</SPAN>
+<BR><BR>
+<INPUT type="submit" name="Go" value="Go">
+
+</FORM>
+
+<SPAN STYLE="font-family: Arial; font-size: 10pt">
+<A href="DocIndex" target="_top">Land Records Home</A> <BR>
+<A href="DocIndex?s=name" target="_top">Search by Name</A> <BR>
+<A href="DocIndex?s=book" target="_top">Search by Book / Page</A> <BR>
+<A href="DocIndex?s=inst" target="_top">Search by Instrument No.</A> <BR>
+<A href="DocIndex?s=help" target="_top">Help</A> <BR>
+<A href="DocIndex?s=glossary" target="_top">Glossary</A> <BR>
+<A href="DocIndex?s=terms" target="_top">Terms of Use</A> <BR> 
+<A href="DocIndex?s=comments" target="_top">Comments</A> <BR> 
+<A href="http://www.unioncountynj.org/constit/clerk/indexclerk.html" target="_top">Union County Clerk Home</A>
+</SPAN>
+
+</BODY>
+</HTML>

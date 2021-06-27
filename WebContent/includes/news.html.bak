@@ -1,0 +1,73 @@
+<DIV style="font-family: arial;">
+
+<!-- begin what's new: outer edge -->
+<TABLE bgcolor="#006633" border="0" cellspacing="0" cellpadding="1">
+  <TR>
+    <TD>
+
+      <!-- main inner -->
+      <TABLE bgcolor="ffffff" cellpadding="2" cellspacing="0" border="0">
+        <TR>
+          <TD align="center" bgcolor="e0d0b0" nowrap colspan="2">
+
+            <!-- title -->
+            <TABLE border="0" cellspacing="0" cellpadding="0" width="160">
+              <TR>
+                <TD align="center">
+                 <FONT face="Arial" size="2"><B>What's New!</B></FONT>
+                </TD>
+              </TR>
+            </TABLE>
+
+          </TD>
+        </TR>
+        <TR>
+          <TD colspan="2">
+
+            <!-- items -->
+            <TABLE cellpadding="0" cellspacing="0" border="0">
+              <TR>
+                <TD valign="top">
+                  <B>&nbsp;&#183;&nbsp;</B>
+                </TD>
+                <TD width="100%">
+                  <SMALL><A href="/UCPA/DocIndex?s=news"><B><b>Union County Clerk’s Office has expanded E-Recording!</b></B></A></SMALL>
+                </TD>
+              </TR>
+              <TR>
+                <TD valign="top">
+                  <B>&nbsp;&#183;&nbsp;</B>
+                </TD>
+                 <TD width="100%">
+                <SMALL><p style="color:red;"><b>Please note we will be doing system maintenance this weekend:</p></b></SMALL>
+                </TD> 
+              </TR>
+              <TR>
+                <TD valign="top">
+                  <B>&nbsp;&#183;&nbsp;</B>
+                </TD>
+                 <TD width="100%">
+                <SMALL><b><p style="color:red;">The web site will be down periodically from Friday, March 30 until Monday April 2</p></b></SMALL>
+                </TD> 
+              </TR>
+              <TR>
+                <TD valign="top">
+                  <B>&nbsp;&#183;&nbsp;</B>
+                </TD>
+                 <TD width="100%">
+                <SMALL><b><p style="color:red;">The web site will be down Thursday night, March 1 from 4:30 PM until the next day at 7:30 AM</p></b></SMALL>
+                </TD> 
+              </TR>
+            
+              
+	        </TABLE>
+
+          </TD>
+        </TR>
+      </TABLE>
+
+    </TD>
+  </TR>
+</TABLE>
+
+</DIV>

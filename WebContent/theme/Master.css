@@ -1,0 +1,54 @@
+
+A{
+  font-family : Arial;
+}
+A:HOVER{
+  color : maroon;
+}
+.OLa{
+  list-style-type : lower-alpha;
+  list-style-position : outside;
+}
+.OL1{
+  list-style-type : decimal;
+  list-style-position : outside;
+}
+TABLE.hilite{
+  background: #FFFFCC;
+}
+TABLE.border{
+  background: #006633;
+}
+TD.title{
+  background: #006633;
+  color: white;
+  font-size: 115%;
+  font-family : Arial;
+}
+TD.formTitle{
+  background: #99FF99;
+  font-size : 20px;
+  font-family : Arial;
+}
+TD.inst{
+  font-size : 12px;
+  font-family : Arial;
+}
+.plus1{
+  font-size : 20px;
+  font-family : Arial;
+}
+.plus2{
+  font-size: 150%;
+}
+.clsArial{
+  font-family : Arial;
+}
+.clsArialBold{
+  font-family : Arial;
+  font-weight : bold;
+}
+.clsArialGreen{
+  font-family : Arial;
+  color : green;
+}
