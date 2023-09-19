@@ -25,7 +25,7 @@ public class Receipting extends UCServlet {
 			UCPA userUCPA = (UCPA)session.getAttribute("userUCPA");
 
 			if (request.getParameter("ssl_result_message").trim().equals("APPROVAL")) {
-				long invoiceNumber = Long.parseLong(request.getParameter("invoicenumber").trim());
+				long invoiceNumber = Long.parseLong(request.getParameter("ssl_invoice").trim());
 				OrderHelper orderHelper = new OrderHelper();
 				Order order = orderHelper.readOrder(invoiceNumber);
 				setPaymentDetails(request, order);

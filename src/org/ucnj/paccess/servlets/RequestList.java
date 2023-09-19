@@ -217,7 +217,7 @@ public class RequestList extends UCServlet {
 		data[3] = new NameValuePair("ssl_transaction_type", "ccsale");
 		data[4] = new NameValuePair("ssl_show_form", "true");
 		data[5] = new NameValuePair("ssl_amount", amount);
-		data[6] = new NameValuePair("invoicenumber", invoiceNumber);
+		data[6] = new NameValuePair("ssl_invoice", invoiceNumber);
 		data[7] = new NameValuePair("ssl_receipt_apprvl_method", "POST");
 		data[8] = new NameValuePair("ssl_receipt_apprvl_post_url", vmReceiptApprovalUrl);
 		data[9] = new NameValuePair("ssl_receipt_decl_method", "POST");
