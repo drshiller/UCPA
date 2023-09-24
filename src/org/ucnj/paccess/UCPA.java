@@ -56,7 +56,7 @@ public class UCPA {
 	public final static int DOC_TYPE_INHERITANCE_TAX_WAIVERS				= 39;
 	
 	private final static String INITIAL_DATE = "06/01/1977";
-	private final static Integer DEF_RESULTS_PER_PAGE = new Integer(6);
+	private final static Integer DEF_RESULTS_PER_PAGE = new Integer(60);
 	private final static Integer MAX_RESULTS_PER_PAGE = new Integer(100);
 
 	private LoginStatus currLoginStatus = null;

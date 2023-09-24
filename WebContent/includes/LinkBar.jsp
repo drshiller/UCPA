@@ -67,7 +67,7 @@ String calcpopup = "window.open('"
 			</tr>
 		</table>
         <FONT face="Arial" size="-2">
-        This Index is copyrighted 1997-2018.
+        This Index is copyrighted 1997-2023.
         County of Union, New Jersey -- Union County Clerk.
         All rights reserved.
         <BR>
@@ -76,9 +76,9 @@ String calcpopup = "window.open('"
         service for your convenience. Neither Union County nor the Union County
         Clerk shall incur a liability for errors or omissions with respect to the
         information provided in the index.<BR>
-        &copy;1997-2018 Union County Clerk
+        &copy;1997-2023 Union County Clerk
         <BR>
-        Version 2.0.15
+        Version 2.0.16
         </FONT>
       </TD>
     </TR>
